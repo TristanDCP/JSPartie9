@@ -661,7 +661,7 @@
                             blocks: t ? this.getStrictBlocks(o) : o
                         }
                     } return {
-                    type: "unknown",
+                    type: "inconnue",
                     blocks: t ? this.getStrictBlocks(i.general) : i.general
                 }
             }
