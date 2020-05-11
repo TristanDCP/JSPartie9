@@ -60,7 +60,7 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
     </script>
     <script type="text/javascript" src="assets/js/script.js"></script>
-    <script src="assets/js/phone-type-formatter.fr.js"></script>
+    <script src="assets/js/cleave-phone.i18n.js"></script>
     <script>
         function checkLastname() {
 
@@ -92,13 +92,13 @@
 
         new Cleave('.input-phonenumber', {
             phone: true,
-            phoneRegionCode: '{country}'
+            phoneRegionCode: '{fr}'
         });
 
         new Cleave('.input-deliverydate', {
             date: true,
             datePattern: ['d', 'm', 'Y'],
-            delimiter: '.',
+            delimiter: '-',
         });
 
         new Cleave('.input-creditcard', {
